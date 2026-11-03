@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Plain-JS physics model copied from ../Sign_Planner/model (tested there with node test_*.js)
+    "src/lib/model.ts",
+    "src/lib/planner.ts",
+    "src/lib/parts.ts",
   ]),
 ]);
 
